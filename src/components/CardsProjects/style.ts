@@ -10,7 +10,7 @@ export const StyledList = styled.ul`
     width: 300px;
     height: 200px;
     padding: 10px 15px;
-    border: 1px solid #8a1b63;
+    border: 1px solid #6e0d92;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -32,8 +32,8 @@ export const StyledList = styled.ul`
       padding: 5px 0;
       text-align: center;
       color: #ffff;
-      background-color: #8a1b63;
-      border: 1px solid #8a1b63;
+      background-color: #6e0d92;
+      border: 1px solid #6e0d92;
       border-radius: 8px;
     }
   }
