@@ -1,16 +1,16 @@
-import imgBackground from "../assets/img-background.png";
-import imgPerfil from "../assets/perfil.png";
-
-import { CardsProject } from "../components/CardsProjects";
+import imgBackground from "../../assets/img-background.png";
+import imgPerfil from "../../assets/perfil.png";
+import { StyledHeader, StyledProfile } from "./style";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
     <>
-      <header>
+      <StyledHeader>
         <img src={imgBackground} alt="" />
-      </header>
+      </StyledHeader>
       <main>
-        <section>
+        <StyledProfile>
           <div>
             <img src={imgPerfil} alt="" />
           </div>
@@ -25,11 +25,11 @@ export const Home = () => {
               Hoje, sou aluna da Kenzie Academy, e estou me formando em
               Desenvolvimento Web Full Stack
             </p>
+            <button>
+              <Link to="/dashboard">Meus projetos</Link>
+            </button>
           </div>
-        </section>
-        <section>
-          <CardsProject />
-        </section>
+        </StyledProfile>
       </main>
     </>
   );
