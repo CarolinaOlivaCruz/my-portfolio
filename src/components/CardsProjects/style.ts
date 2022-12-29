@@ -4,17 +4,18 @@ export const StyledList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 15px;
+  gap: 30px;
 
   li {
     width: 300px;
     height: 200px;
     padding: 10px 15px;
-    border: 1px solid #6e0d92;
+    border: 1px solid #3f38f9;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-shadow: 0 5px 15px grey;
 
     p {
       font-weight: bold;
@@ -29,11 +30,10 @@ export const StyledList = styled.ul`
     }
 
     a {
-      padding: 5px 0;
+      padding: 10px 0;
       text-align: center;
       color: #ffff;
-      background-color: #6e0d92;
-      border: 1px solid #6e0d92;
+      background-color: #3f38f9;
       border-radius: 8px;
     }
   }

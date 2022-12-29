@@ -15,8 +15,6 @@ export const UserProvider = ({ children }: iChildren) => {
             const response = await api.get<iProject[]>(
               "https://api.github.com/users/CarolinaOlivaCruz/repos"
             );
-            console.log(response);
-            
             setListProjects(response.data);
           } catch (error) {
             console.error(error);

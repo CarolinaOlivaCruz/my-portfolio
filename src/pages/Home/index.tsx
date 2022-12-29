@@ -1,7 +1,9 @@
 import imgBackground from "../../assets/img-background.png";
 import imgPerfil from "../../assets/perfil.png";
-import { StyledHeader, StyledProfile } from "./style";
+import { StyledContentLink, StyledHeader, StyledMain } from "./style";
 import { Link } from "react-router-dom";
+import git from "../../assets/github.png";
+import linkedin from "../../assets/linkedin.png";
 
 export const Home = () => {
   return (
@@ -9,8 +11,8 @@ export const Home = () => {
       <StyledHeader>
         <img src={imgBackground} alt="" />
       </StyledHeader>
-      <main>
-        <StyledProfile>
+      <StyledMain>
+        <section>
           <div>
             <img src={imgPerfil} alt="" />
           </div>
@@ -23,14 +25,30 @@ export const Home = () => {
             </p>
             <p>
               Hoje, sou aluna da Kenzie Academy, e estou me formando em
-              Desenvolvimento Web Full Stack
+              Desenvolvimento Web Full Stack Hoje, sou aluna da Kenzie Academy,
+              e estou me formando em Desenvolvimento Web Full Stack Hoje, sou
+              aluna da Kenzie Academy, e estou me formando em Desenvolvimento
+              Web Full Stack Hoje, sou aluna da Kenzie Academy, e estou me
+              formando em Desenvolvimento Web Full Stack
             </p>
             <button>
               <Link to="/dashboard">Meus projetos</Link>
             </button>
           </div>
-        </StyledProfile>
-      </main>
+        </section>
+      </StyledMain>
+      <StyledContentLink>
+        <button>
+          <a href="https://github.com/CarolinaOlivaCruz">
+            <img src={git} alt="" />
+          </a>
+        </button>
+        <button>
+          <a href="https://www.linkedin.com/in/carolina-oliva-cruz/">
+            <img src={linkedin} alt="" />
+          </a>
+        </button>
+      </StyledContentLink>
     </>
   );
 };
