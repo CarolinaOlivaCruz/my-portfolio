@@ -13,24 +13,22 @@ export const Home = () => {
       </StyledHeader>
       <StyledMain>
         <section>
-          <div>
-            <img src={imgPerfil} alt="" />
-          </div>
+          <img src={imgPerfil} alt="" />
           <div>
             <h1>Quem sou eu?</h1>
             <p>
-              Olá me chamo Ana Carolina, mais conhecida por Carol. Nunca
-              imaginei na área de tech mas quando conheci a programação web tudo
-              mudou.
+              Olá, se você chegou até aqui, provalmente me encontrou no Linkedin
+              ou no Github, ou recebeu meu currículo. Sendo assim gostaria de
+              apresentar meus projetos pessoais, utilizando algumas ou todas as
+              habilidades abaixo, como:
             </p>
+            <p>- Framework: React</p>
             <p>
-              Em Julho de 2022 comecei a formação da Kenzie para desenvolvimento
-              full stack. Na formação desenvolvi projetos Frontend usando HTML,
-              CSS, JavaScript, Typescript e React. Mas além de adquirir
-              habilidades de Hard Skill, também desenvolvi habilidades de Soft
-              Skill, visto que a formação aplica conceitos do Scrum, e também
-              tive a oportunidade de desenvolver projetos em equipe.
+              - Tenologias de Desenvolvimento: HTML, CSS, Javascript, Typescript
             </p>
+            <p>- Metodologia Ágil: Scrum, Kanban</p>
+            <p>- Controle de Versionamento: Git e Github</p>
+
             <button>
               <Link to="/dashboard">Meus projetos</Link>
             </button>
