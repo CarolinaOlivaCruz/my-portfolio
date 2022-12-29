@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
 export const StyledList = styled.ul`
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
+  overflow: auto;
+  scrollbar-width: initial;
 
   li {
-    width: 300px;
+    min-width: 250px;
     height: 200px;
     padding: 10px 15px;
     border: 1px solid #3f38f9;
@@ -35,6 +37,22 @@ export const StyledList = styled.ul`
       color: #ffff;
       background-color: #3f38f9;
       border-radius: 8px;
+    }
+  }
+
+  @media (min-width: 700px) {
+    flex-wrap: wrap;
+
+    li {
+      width: 300px;
+    }
+  }
+
+  @media (min-width: 900px) {
+    flex-wrap: wrap;
+
+    li {
+      width: 250px;
     }
   }
 `;

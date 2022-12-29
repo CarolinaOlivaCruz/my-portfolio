@@ -8,14 +8,14 @@ export const StyledContentDash = styled.section`
   header {
     img {
       width: 100%;
-      height: 250px;
+      height: 200px;
       object-fit: fill;
       box-shadow: 0 3px 25px 5px grey;
     }
   }
-  
+
   main {
-    width: 80%;
+    width: 90%;
     padding: 40px 0;
     margin: 0 auto;
 
@@ -26,6 +26,10 @@ export const StyledContentDash = styled.section`
       color: #ffff;
       background-color: #3f38f9;
       border-radius: 8px;
+    }
+
+    @media (min-width: 900px) {
+      width: 85%;
     }
   }
 `;

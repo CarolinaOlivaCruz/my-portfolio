@@ -16,6 +16,10 @@ export const StyledHeader = styled.header`
       object-fit: cover;
     }
   }
+
+  @media (min-width: 1400px) {
+    height: 400px;
+  }
 `;
 
 export const StyledMain = styled.main`
@@ -35,6 +39,7 @@ export const StyledMain = styled.main`
       height: 180px;
       border-radius: 180px;
       object-fit: cover;
+      border: 5px solid #ffff;
     }
 
     div {
@@ -113,6 +118,7 @@ export const StyledMain = styled.main`
         height: 300px;
         border-radius: 20px;
         object-fit: cover;
+        border: none;
       }
     }
 
