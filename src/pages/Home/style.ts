@@ -19,6 +19,7 @@ export const StyledMain = styled.main`
     margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     border-radius: 20px;
     transform: translateY(-40%);
     background-color: #fafafa;
@@ -28,16 +29,22 @@ export const StyledMain = styled.main`
     div {
       width: 500px;
       display: flex;
-      flex-direction: column;
-      align-items: flex-start;
       color: #14154c;
-
+      flex-direction: column;
+      align-items: center;
+     
       h1 {
         margin-bottom: 20px;
+      }
+
+      p {
+        margin-top: 10px;
+        text-align: left;
       }
     }
 
     img {
+      margin-right: 40px;
       width: 280px;
       height: 300px;
       border-radius: 20px;

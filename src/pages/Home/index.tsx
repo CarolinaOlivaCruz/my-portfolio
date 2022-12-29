@@ -18,18 +18,18 @@ export const Home = () => {
           </div>
           <div>
             <h1>Quem sou eu?</h1>
-            <p>Olá, me chamo Ana Carolina, tenho 25 anos.</p>
             <p>
-              Antes de entrar no mundo da programação, trabalhava com
-              artesanato.{" "}
+              Olá me chamo Ana Carolina, mais conhecida por Carol. Nunca
+              imaginei na área de tech mas quando conheci a programação web tudo
+              mudou.
             </p>
             <p>
-              Hoje, sou aluna da Kenzie Academy, e estou me formando em
-              Desenvolvimento Web Full Stack Hoje, sou aluna da Kenzie Academy,
-              e estou me formando em Desenvolvimento Web Full Stack Hoje, sou
-              aluna da Kenzie Academy, e estou me formando em Desenvolvimento
-              Web Full Stack Hoje, sou aluna da Kenzie Academy, e estou me
-              formando em Desenvolvimento Web Full Stack
+              Em Julho de 2022 comecei a formação da Kenzie para desenvolvimento
+              full stack. Na formação desenvolvi projetos Frontend usando HTML,
+              CSS, JavaScript, Typescript e React. Mas além de adquirir
+              habilidades de Hard Skill, também desenvolvi habilidades de Soft
+              Skill, visto que a formação aplica conceitos do Scrum, e também
+              tive a oportunidade de desenvolver projetos em equipe.
             </p>
             <button>
               <Link to="/dashboard">Meus projetos</Link>
