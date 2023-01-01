@@ -29,9 +29,7 @@ export const Home = () => {
             <p>- Metodologia Ágil: Scrum, Kanban</p>
             <p>- Controle de Versionamento: Git e Github</p>
 
-            <button>
-              <Link to="/dashboard">Meus projetos</Link>
-            </button>
+            <Link to="/dashboard">Meus projetos</Link>
           </div>
         </section>
       </StyledMain>

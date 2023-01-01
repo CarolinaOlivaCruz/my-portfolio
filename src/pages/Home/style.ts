@@ -63,7 +63,7 @@ export const StyledMain = styled.main`
       }
     }
 
-    button {
+    a {
       width: 100%;
       margin-top: 20px;
       margin: 20px auto;
