@@ -24,7 +24,7 @@ export const Home = () => {
             </p>
             <p>- Framework: React</p>
             <p>
-              - Tenologias de Desenvolvimento: HTML, CSS, Javascript, Typescript
+              - Tecnologias de Desenvolvimento: HTML, CSS Responsivo, Javascript, Typescript, consumo de Api
             </p>
             <p>- Metodologia Ágil: Scrum, Kanban</p>
             <p>- Controle de Versionamento: Git e Github</p>
