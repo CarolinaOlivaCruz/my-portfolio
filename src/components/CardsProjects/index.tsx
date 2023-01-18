@@ -1,24 +1,27 @@
-import { useContext } from "react";
-import { UserContext } from "../../providers/UserContext";
 import { StyledList } from "./style";
+import appFinance from "../../assets/app-finance.png";
 
 export const CardsProject = () => {
-  const { listProjects } = useContext(UserContext);
-
   return (
     <StyledList>
-      {listProjects?.map((item) => {
-        const { name, html_url, language, description } = item;
-
-        return (
-          <li>
-            <h3>{name.replace("-"," ").toLocaleUpperCase()}</h3>
-            <p>{language}</p>
-            <span>{description}</span>
-            <a href={html_url}>Ver projeto no Github</a>
-          </li>
-        );
-      })}
+      <li>
+        <img src={appFinance} alt="Uma imagem do projeto Controle Financeiro" />
+        <section>
+          <h3>Controle Financeiro <span>- JavaScript</span></h3>
+          <p>
+            Uma aplicação em construção, que gerencia as transações de entradas
+            e saídas do usuário.
+          </p>
+          <div>
+            <a href="https://control-finance-sigma.vercel.app">
+              Ver com aplicação
+            </a>
+            <a href="https://github.com/CarolinaOlivaCruz/control-finance">
+              Repositório do projeto
+            </a>
+          </div>
+        </section>
+      </li>
     </StyledList>
   );
 };
