@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="Uma imagem mostrando o conteúdo da aplicação" src="https://github.com/Reciclarte-Kenzie/reciclarte/blob/develop/src/assets/imgs/logoHeader.png" />
+<img alt="Uma imagem mostrando o conteúdo da aplicação" src="https://github.com/CarolinaOlivaCruz/my-profile/blob/main/src/assets/capa-readmi.png?raw=true" />
 </div>
 
 <div align="center">
