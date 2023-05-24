@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StyledContainer = styled.section`
   height: 80vh;
   width: 80%;
-  margin: 0 auto;
+  margin: 30px auto;
   display: flex;
   flex-direction: column;
   gap: 30px;

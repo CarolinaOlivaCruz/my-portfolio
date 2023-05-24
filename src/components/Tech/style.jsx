@@ -5,7 +5,7 @@ const StyledContainer = styled.section`
  
   ul {
     width: 70%;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 20px;
     display: flex;
     justify-content: space-between;

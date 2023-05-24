@@ -2,23 +2,30 @@ import styled from "styled-components";
 
 const StyledContainer = styled.section`
   width: 80%;
-  margin: 55px auto;
-  height: 90vh;
+  margin: 0 auto;
   display: flex;
   align-items: center;
-  gap: 100px;
+  border-top: 1px solid grey;
 
   img {
-    width: 50px;
-    object-fit: cover;
-   
+    width: 30px;
   }
 
-  div {
+  ul {
+    margin: 20px auto;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
+    gap: 30px;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    a {
+      color: #000;
+    }
+  }
 `;
 
 export default StyledContainer;
