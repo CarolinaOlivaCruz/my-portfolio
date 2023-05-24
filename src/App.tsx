@@ -1,12 +1,12 @@
 import React from "react";
-import { Routers } from "./routes";
+import  Home  from "./pages/Home";
 import { GlobalStyle } from "./styles/globalStyles";
 
 export const App = () => {
   return (
     <div>
       <GlobalStyle />
-      <Routers />
+      <Home />
     </div>
   );
 };
