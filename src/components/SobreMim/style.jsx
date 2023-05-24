@@ -13,6 +13,7 @@ const StyledContainer = styled.section`
     object-fit: cover;
     box-shadow: 50px 30px #243245;
     border-radius: 4px;
+    border: 3px solid #ffff;
   }
 
   div {
