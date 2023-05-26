@@ -15,7 +15,7 @@ const Contato = () => {
         </li>
         <li>
           <img src={linkedin} alt="" />
-          <a href="linkedin.com/in/carolina-oliva-cruz">Linkedin</a>
+          <a href="https://linkedin.com/in/carolina-oliva-cruz">Linkedin</a>
         </li>
         <li>
           <img src={gmail} alt="" />
