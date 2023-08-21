@@ -4,9 +4,9 @@
 
 <div align="center">
 <h3>
-  SPA - Meu perfil
+  Meu portifólio
 </h3>
-<p>Uma single page aplication que conta um pouco sobre quem eu sou e apresenta meus projetos frontend</p>
+<p>Uma SPA que conta um pouco sobre quem eu sou e apresenta meus projetos como fullstack</p>
 </div>
 
 <p align="center">
@@ -36,13 +36,12 @@
 <a href="https://my-profile-lovat.vercel.app">Para conferir e utilizar o projeto clique aqui</a>.
 
 <h2 id="descricao">:pencil2: Descrição</h2>
-Quem sou eu? Me chamo Ana Carolina, tenho 25 anos. E com essa SPA é possível visualizar meus projetos desenvolvidos, quais tecnologias e ferramentas usadas.
+Quem sou eu? Me chamo Ana Carolina, moro em Ipojuca, Pernambuco e tenho 26 anos. Sou formada em desenvolviento web fullstack pela Kenzie Academy Brasil. E com essa SPA é possível visualizar minhas skills na área tech.
 
 <h2 id="Bibliotecas">:books: Bibliotecas utilizadas</h2>
 
 - [x] React
 - [x] Styled components
-- [x] React Router DOM
 
 <h2 id="Ferramentas">:wrench: Ferramentas utilizadas</h2>
 
