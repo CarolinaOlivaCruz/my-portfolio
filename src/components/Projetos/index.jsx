@@ -19,8 +19,8 @@ const Projetos = () => {
               búsqueda, categoría y precio.
             </p>
             <div className="content-links">
-              <a href="https://y-carolinaolivacruz.vercel.app/">Demo</a>
-              <a href="https://github.com/CarolinaOlivaCruz/projet-meli-search">
+              <a href="https://y-carolinaolivacruz.vercel.app/" target="_blank" rel="noopener noreferrer">Demo</a>
+              <a href="https://github.com/CarolinaOlivaCruz/projet-meli-search" target="_blank" rel="noopener noreferrer">
                 Repositório
               </a>
             </div>
@@ -38,8 +38,8 @@ const Projetos = () => {
               mínimo de recursos possíveis.
             </p>
             <div className="content-links">
-              <a href="https://project-burguer-big.vercel.app/">Demo</a>
-              <a href="https://github.com/Kenzie-Academy-Brasil-Developers/project-burguer-big">
+              <a href="https://project-burguer-big.vercel.app/" target="_blank" rel="noopener noreferrer">Demo</a>
+              <a href="https://github.com/Kenzie-Academy-Brasil-Developers/project-burguer-big" target="_blank" rel="noopener noreferrer">
                 Repositório
               </a>
             </div>
@@ -57,10 +57,10 @@ const Projetos = () => {
               Google Maps.
             </p>
             <div className="content-links">
-              <a href="https://spa-mavel-comics-carolinaolivacruz.vercel.app/">
+              <a href="https://spa-mavel-comics-carolinaolivacruz.vercel.app/" target="_blank" rel="noopener noreferrer">
                 Demo
               </a>
-              <a href="https://github.com/CarolinaOlivaCruz/spa-marvel-comics">
+              <a href="https://github.com/CarolinaOlivaCruz/spa-marvel-comics" target="_blank" rel="noopener noreferrer">
                 Repositório
               </a>
             </div>

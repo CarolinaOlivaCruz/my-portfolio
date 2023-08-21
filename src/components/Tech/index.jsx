@@ -20,43 +20,43 @@ const Tech = () => {
       <div>
         <ul>
           <li>
-            <img src={html5} alt="html5" />
+            <img src={html5} alt="HTML5" title="HTML5"/>
           </li>
           <li>
-            <img src={css3} alt="html5" />
+            <img src={css3} alt="CSS3" title="CSS3" />
           </li>
           <li>
-            <img src={js} alt="html5" />
+            <img src={js} alt="JavaScript" title="JavaScript"/>
           </li>
           <li>
-            <img src={ts} alt="html5" />
+            <img src={ts} alt="TypeScript" title="TypeScript"/>
           </li>
           <li>
-            <img src={reactjs} alt="html5" />
+            <img src={reactjs} alt="ReactJs" title="ReactJs"/>
           </li>
           <li>
-            <img src={nodejs} alt="html5" />
+            <img src={nodejs} alt="NodeJs" title="NodeJs"/>
           </li>
           <li>
-            <img src={express} alt="html5" />
+            <img src={express} alt="Express" title="Express"/>
           </li>
           <li>
-            <img src={postgres} alt="html5" />
+            <img src={postgres} alt="Postgres" title="Postgres"/>
           </li>
           <li>
-            <img src={python} alt="html5" />
+            <img src={python} alt="Python" title="Python"/>
           </li>
           <li>
-            <img src={git} alt="html5" />
+            <img src={git} alt="Git" title="Git"/>
           </li>
           <li>
-            <img src={github} alt="html5" />
+            <img src={github} alt="Github" title="Github"/>
           </li>
           <li>
-            <img src={jira} alt="html5" />
+            <img src={jira} alt="Jira" title="Jira"/>
           </li>
           <li>
-            <img src={trello} alt="html5" />
+            <img src={trello} alt="Trello" title="Trello"/>
           </li>
         </ul>
       </div>
