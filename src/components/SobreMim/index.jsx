@@ -22,13 +22,17 @@ const SobreMim = () => {
           habilidades abaixo, como:
         </p>
         <ul>
-          <li>- Framework: React </li>
+          <li>- Framework: ReactJs, Express, Django;</li>
           <li>
-            - Tecnologias de Desenvolvimento: HTML, CSS Responsivo, Javascript,
-            Typescript, consumo de Api{" "}
+            - Linguagens de Desenvolvimento: Javascript, Typescript, Python;
           </li>
-          <li>- Metodologia Ágil: Scrum, Kanban</li>
-          <li>- Controle de Versionamento: Git e Github</li>
+          <li>
+            - Tecnologias e Ferramentas: HTML, CSS Responsivo, Tailwind, Styled
+            components, NextJs, construção e consumo de Api, Postgres, MySQL,
+            Insomnia, DBeaver;
+          </li>
+          <li>- Metodologia Ágil: Scrum, Kanban;</li>
+          <li>- Controle de Versionamento: Git e Github.</li>
         </ul>
       </div>
     </StyledContainer>
