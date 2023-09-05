@@ -8,7 +8,7 @@ const SobreMim = () => {
       <div>
         <img src={imgPerfil} alt="" />
       </div>
-      <div>
+      <article>
         <h1>
           Olá!
           <br />
@@ -16,25 +16,25 @@ const SobreMim = () => {
         </h1>
         <h2>Desenvolvedora Web Fullstack</h2>
         <p>
-          Olá, se você chegou até aqui, provalmente me encontrou no Linkedin ou
+          Se você chegou até aqui, provalmente me encontrou no Linkedin ou
           no Github, ou recebeu meu currículo. Sendo assim gostaria de
           apresentar meus projetos pessoais, utilizando algumas ou todas as
           habilidades abaixo, como:
         </p>
         <ul>
-          <li>- Framework: ReactJs, Express, Django;</li>
+          <li>- Framework: <span>ReactJs, Express, Django</span>;</li>
           <li>
-            - Linguagens de Desenvolvimento: Javascript, Typescript, Python;
+            - Linguagens de Desenvolvimento: <span>Javascript, Typescript, Python</span>;
           </li>
           <li>
-            - Tecnologias e Ferramentas: HTML, CSS Responsivo, Tailwind, Styled
+            - Tecnologias e Ferramentas: <span>HTML, CSS Responsivo, Tailwind, Styled
             components, NextJs, construção e consumo de Api, Postgres, MySQL,
-            Insomnia, DBeaver;
+            Insomnia, DBeaver</span>;
           </li>
-          <li>- Metodologia Ágil: Scrum, Kanban;</li>
-          <li>- Controle de Versionamento: Git e Github.</li>
+          <li>- Metodologia Ágil: <span>Scrum, Kanban</span>;</li>
+          <li>- Controle de Versionamento: <span>Git e Github</span>.</li>
         </ul>
-      </div>
+      </article>
     </StyledContainer>
   );
 };

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledContainer = styled.section`
-  height: 70vh;
+  /* height: 70vh;
  
   ul {
     width: 70%;
@@ -20,7 +20,7 @@ const StyledContainer = styled.section`
       padding: 20px 0;
       object-fit: cover;
     }
-  }
+  } */
 `;
 
 export default StyledContainer;

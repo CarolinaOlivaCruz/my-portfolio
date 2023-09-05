@@ -35,11 +35,10 @@ const Home = () => {
             Projetos
           </button>
           <button onClick={() => scrollToComponent(contatoRef)}>Contato</button>
-          <button>light/dark</button>
         </div>
       </StyledHeader>
       <ContentContainer>
-        <div>
+        <section>
           <div ref={sobreMimRef}>
             <SobreMim />
           </div>
@@ -52,7 +51,7 @@ const Home = () => {
           <div ref={contatoRef}>
             <Contato />
           </div>
-        </div>
+        </section>
       </ContentContainer>
     </>
   );

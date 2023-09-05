@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledContainer = styled.section`
-  height: 80vh;
+  /* height: 80vh;
   width: 80%;
   margin: 30px auto;
   display: flex;
@@ -50,7 +50,7 @@ const StyledContainer = styled.section`
     border-radius: 4px;
     padding: 10px;
     color: #000;
-  }
+  } */
 `;
 
 export default StyledContainer;

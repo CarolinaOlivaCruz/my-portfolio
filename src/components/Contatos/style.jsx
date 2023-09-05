@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledContainer = styled.section`
-  width: 80%;
+  /* width: 80%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -25,7 +25,7 @@ const StyledContainer = styled.section`
     a {
       color: #000;
     }
-  }
+  } */
 `;
 
 export default StyledContainer;
