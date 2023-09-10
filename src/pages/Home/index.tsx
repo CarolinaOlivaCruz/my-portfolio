@@ -1,12 +1,12 @@
 import React, { useRef } from "react";
-import SobreMim from "../../components/SobreMim";
-import Projetos from "../../components/Projetos";
+import About from "../../components/About";
+import Projetos from "../../components/Projects";
 import Tech from "../../components/Tech";
 import { ContentContainer, StyledHeader } from "./style";
-import Contato from "../../components/Contatos";
+import Contato from "../../components/Contact";
 
 const Home = () => {
-  const sobreMimRef = useRef(null);
+  const aboutRef = useRef(null);
   const techRef = useRef(null);
   const projetosRef = useRef(null);
   const contatoRef = useRef(null);
@@ -25,7 +25,7 @@ const Home = () => {
     <>
       <StyledHeader>
         <div>
-          <button onClick={() => scrollToComponent(sobreMimRef)}>
+          <button onClick={() => scrollToComponent(aboutRef)}>
             Sobre mim
           </button>
           <button onClick={() => scrollToComponent(techRef)}>
@@ -35,28 +35,24 @@ const Home = () => {
             Projetos
           </button>
           <button onClick={() => scrollToComponent(contatoRef)}>Contato</button>
-          <button>light/dark</button>
         </div>
       </StyledHeader>
       <ContentContainer>
-        <div>
-          <div ref={sobreMimRef}>
-            <SobreMim />
-          </div>
-          <div ref={techRef}>
-            <Tech />
-          </div>
-          <div ref={projetosRef}>
-            <Projetos />
-          </div>
-          <div ref={contatoRef}>
-            <Contato />
-          </div>
-        </div>
+        <section ref={aboutRef}>
+          <About />
+        </section>
+        <section ref={techRef}>
+          <Tech />
+        </section>
+        <section ref={projetosRef}>
+          <Projetos />
+        </section>
+        <section ref={contatoRef}>
+          <Contato />
+        </section>
       </ContentContainer>
     </>
   );
 };
 
 export default Home;
-

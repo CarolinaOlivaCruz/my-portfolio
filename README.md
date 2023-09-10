@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="Uma imagem mostrando o conteúdo da aplicação" src="https://github.com/CarolinaOlivaCruz/my-profile/blob/main/src/assets/capa-readmi.png?raw=true" />
+<img alt="Uma imagem mostrando o conteúdo da aplicação" src="https://github.com/CarolinaOlivaCruz/my-portfolio/blob/ref/v2.1/src/assets/tela.png" />
 </div>
 
 <div align="center">
@@ -48,6 +48,7 @@ Quem sou eu? Me chamo Ana Carolina, moro em Ipojuca, Pernambuco e tenho 26 anos.
 - [x] VS Code
 - [x] Github
 - [x] Typescript
+- [x] Consumo da APi Github
 
 <h2 id="funcionalidades">:hammer: Funcionalidades</h2>
 

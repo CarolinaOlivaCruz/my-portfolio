@@ -7,13 +7,8 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     text-decoration: none;
     outline: 0;
+    font-family: 'Poppins', sans-serif;
   }
-
-  /* body {
-    height: 100vh;
-    color: #f4fdf6;
-    background:  #0c2253;
-  } */
 
   button {
     cursor: pointer;
@@ -26,7 +21,7 @@ export const GlobalStyle = createGlobalStyle`
   li {
     list-style: none;
   }
-`
+`;
 
 // #492b69
 // #683b8c
