@@ -33,7 +33,7 @@
 
 <h2 id="Como acessar"> :computer_mouse: Como acessar?</h2>
 
-<a href="https://my-profile-lovat.vercel.app">Para conferir e utilizar o projeto clique aqui</a>.
+<a href="https://my-portfolio-eosin-sigma.vercel.app">Para conferir e utilizar o projeto clique aqui</a>.
 
 <h2 id="descricao">:pencil2: Descrição</h2>
 Quem sou eu? Me chamo Ana Carolina, moro em Ipojuca, Pernambuco e tenho 26 anos. Sou formada em desenvolviento web fullstack pela Kenzie Academy Brasil. E com essa SPA é possível visualizar minhas skills na área tech.
@@ -58,7 +58,7 @@ Quem sou eu? Me chamo Ana Carolina, moro em Ipojuca, Pernambuco e tenho 26 anos.
 
 <h2 id="interacao">:computer: Como interagir com o projeto? </h2>
 
- >Interagir com o site por meio<a href="https://reciclarte-rho.vercel.app/"> da Vercel</a>.
+ >Interagir com o site por meio<a href="https://my-portfolio-eosin-sigma.vercel.app"> da Vercel</a>.
 
 <h2 id="Desenvolvedora">:construction_worker: Pessoas desenvolvedora</h2>
 
