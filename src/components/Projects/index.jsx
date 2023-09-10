@@ -4,7 +4,7 @@ import melisearch from "../../assets/melisearch.png";
 import marvelComics from "../../assets/marvel-comics.png";
 import burguerBig from "../../assets/burguer-big.png";
 
-const Projetos = () => {
+const Projects = () => {
   return (
     <StyledContainer>
       <ul>
@@ -19,8 +19,18 @@ const Projetos = () => {
               búsqueda, categoría y precio.
             </p>
             <div className="content-links">
-              <a href="https://y-carolinaolivacruz.vercel.app/" target="_blank" rel="noopener noreferrer">Demo</a>
-              <a href="https://github.com/CarolinaOlivaCruz/projet-meli-search" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://y-carolinaolivacruz.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Demo
+              </a>
+              <a
+                href="https://github.com/CarolinaOlivaCruz/projet-meli-search"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Repositório
               </a>
             </div>
@@ -38,8 +48,18 @@ const Projetos = () => {
               mínimo de recursos possíveis.
             </p>
             <div className="content-links">
-              <a href="https://project-burguer-big.vercel.app/" target="_blank" rel="noopener noreferrer">Demo</a>
-              <a href="https://github.com/Kenzie-Academy-Brasil-Developers/project-burguer-big" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://project-burguer-big.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Demo
+              </a>
+              <a
+                href="https://github.com/Kenzie-Academy-Brasil-Developers/project-burguer-big"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Repositório
               </a>
             </div>
@@ -57,19 +77,33 @@ const Projetos = () => {
               Google Maps.
             </p>
             <div className="content-links">
-              <a href="https://spa-mavel-comics-carolinaolivacruz.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://spa-mavel-comics-carolinaolivacruz.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Demo
               </a>
-              <a href="https://github.com/CarolinaOlivaCruz/spa-marvel-comics" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/CarolinaOlivaCruz/spa-marvel-comics"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Repositório
               </a>
             </div>
           </div>
         </li>
       </ul>
-      <a href="https://github.com/CarolinaOlivaCruz">Ver outros projetos</a>
+      <a
+        href="https://github.com/CarolinaOlivaCruz"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Ver outros projetos no Github
+      </a>
     </StyledContainer>
   );
 };
 
-export default Projetos;
+export default Projects;

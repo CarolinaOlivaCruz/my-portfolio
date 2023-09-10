@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-const StyledContainer = styled.section`
-  /* width: 80%;
+const StyledContainer = styled.div`
+  width: 90%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -14,6 +14,8 @@ const StyledContainer = styled.section`
   ul {
     margin: 20px auto;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
 
     li {
@@ -25,7 +27,11 @@ const StyledContainer = styled.section`
     a {
       color: #000;
     }
-  } */
+  }
+
+  @media (min-width: 1000px) {
+    width: 60%;
+  }
 `;
 
 export default StyledContainer;
