@@ -14,10 +14,25 @@ const About = () => {
         </h1>
         <h2>Desenvolvedora Web Fullstack</h2>
         <p>
-          Se você chegou até aqui, provalmente me encontrou no Linkedin ou no
-          Github, ou recebeu meu currículo. Sendo assim gostaria de apresentar
-          meus projetos pessoais, utilizando algumas ou todas as habilidades
-          abaixo, como:
+          Se você chegou até aqui, provalmente me encontrou no{" "}
+          <a
+            href="https://linkedin.com/in/carolina-oliva-cruz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linkedin
+          </a>{" "}
+          ou no{" "}
+          <a
+            href="https://github.com/CarolinaOlivaCruz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+          , ou recebeu meu currículo. Sendo assim gostaria de apresentar meus
+          projetos pessoais, utilizando algumas ou todas as habilidades abaixo,
+          como:
         </p>
         <ul>
           <li>

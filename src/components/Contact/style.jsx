@@ -26,6 +26,11 @@ const StyledContainer = styled.div`
 
     a {
       color: #000;
+
+      :hover {
+        color: #243245;
+        font-weight: 600;
+      }
     }
   }
 

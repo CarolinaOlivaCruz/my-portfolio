@@ -30,6 +30,16 @@ const StyledContainer = styled.div`
       font-size: 20px;
     }
 
+    a {
+      color: #000;
+      font-style: italic; 
+
+      :hover {
+        color: #243245;
+        font-weight: 600;
+      }
+    }
+
     ul {
       display: flex;
       flex-direction: column;
