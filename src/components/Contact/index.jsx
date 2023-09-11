@@ -6,7 +6,7 @@ import gmail from "../../assets/gmail.svg";
 import whatsapp from "../../assets/whatsapp.svg";
 
 const Contact = () => {
-  const numeroWhatsapp = "5591992547202";
+  const numeroWhatsapp = "5581992547202";
 
   const handleWhatsappClick = () => {
     window.location.href = `https://wa.me/${numeroWhatsapp}`;
